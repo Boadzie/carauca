@@ -51,7 +51,7 @@
           <img class="absolute object-cover object-center w-full h-full bg-gray-500 opacity-70 before:absolute before:inset-0 before:bg-black/50" src={item.src} alt={items.age}/>
           <div class="absolute z-50 p-4 mx-2 text-white rounded-md lg:w-1/2">
            <h2 class="p-2 text-5xl uppercase lg:text-8xl">Discover</h2>
-            <p class="text-4xl prose ">The free Wild!!</p> 
+            <p class="text-4xl prose text-white">The free Wild!!</p> 
         </div>
         </div>
       {/each}

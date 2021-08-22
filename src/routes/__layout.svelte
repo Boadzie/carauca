@@ -9,6 +9,6 @@
 
 <style>
   :global(html){
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Advent Pro', sans-serif;
   }
 </style>

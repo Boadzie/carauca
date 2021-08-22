@@ -45,7 +45,7 @@
 		class="flex-grow hidden w-full pt-6 text-lg font-bold lg:flex lg:items-center lg:w-auto lg:pt-0"
 		id="nav-content"
 	>
-		<ul class="items-center justify-center flex-1 text-lg list-reset lg:flex">
+		<ul class="items-center justify-center flex-1 text-2xl list-reset lg:flex">
 			<li class="mr-3">
 				<a
 					href="/"
@@ -73,7 +73,7 @@
 			<li class="mr-3">
 				<a
 					href="#testimonials"
-					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
+					class="inline-block  px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
 				>
 					Testimonials
 				</a>
@@ -87,10 +87,9 @@
 				</a>
 			</li>
 		</ul>
-		<a
-			class="inline-block px-2 py-2 text-lg no-underline tomato-bg hover:text-white hover:text-grey-lighter hover:text-underline"
-			href="#contact">Contact Us</a
-		>
+		<button
+			class=" px-2 py-2 tomato-bg text-lg rounded-lg no-underline hover:text-white "
+			href="#contact">Contact Us</button>
 	</div>
 </nav>
 
@@ -102,7 +101,6 @@
 
 	a:hover {
 		background-position: bottom;
-		background-repeat: repeat-x;
 		background-size: 30%;
 		border-bottom: 10;
 		background-color: tomato;
@@ -111,8 +109,10 @@
 		text-decoration: none;
 	}
 	.tomato-bg {
-		background-color: tomato;
-		border-radius: 1px;
+		background-image: url("https://cdn.pixabay.com/photo/2017/03/26/21/54/yoga-2176668_1280.jpg");
+		background-repeat: no-repeat;
+		background-position:cover;
+		
 	}
 	.tomato-text {
 		color: tomato;
