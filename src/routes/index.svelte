@@ -1,6 +1,7 @@
 <script>
   import Banner from "$lib/Banner.svelte"
   import Feature from "$lib/Feature.svelte"
+  import Best from "$lib/Best.svelte"
 </script>
 
 <section>
@@ -8,4 +9,7 @@
 </section>
 <section >
  <Feature/>
+</section>
+<section>
+  <Best/>
 </section>

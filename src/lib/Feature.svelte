@@ -1,6 +1,6 @@
 <section class="bg-gray-200 py-14">
 <div class="flex flex-col">
-    <h2 class="py-5 text-4xl font-bold text-center lg:text-5xl">We have the best tours</h2>
+    <h2 class="py-5 text-4xl font-bold text-center uppercase lg:text-5xl">We have the best tours</h2>
     <p class="p-4 ml-auto mr-auto text-lg text-center lg:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. </p>
 </div>
 <div class="flex items-center justify-center mx-2 lg:mx-14">
