@@ -1,28 +1,27 @@
-<section class="py-14 bg-gray-200">
+<section class="bg-gray-200 py-14">
 <div class="flex flex-col">
     <h2 class="py-5 text-4xl font-bold text-center lg:text-5xl">We have the best tours</h2>
-    <p class="text-lg mr-auto ml-auto p-4 text-center lg:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. </p>
+    <p class="p-4 ml-auto mr-auto text-lg text-center lg:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. </p>
 </div>
-<div class="flex items-center mx-2 lg:mx-14 justify-center">
-  <div class="text-white relative  grid grid-cols-1 gap-4 lg:grid-cols-3">
+<div class="flex items-center justify-center mx-2 lg:mx-14">
+  <div class="relative grid grid-cols-1 gap-4 text-white lg:grid-cols-3">
       <div  
-      class="cover-img-1 w-full bg-gray-600 top-0 left-0 opacity-80  rounded-md flex px-4 flex-col bg-cover object-cover object-center py-28 justify-center items-left">
-         <h3 class="z-50 opacity-100 py-3 text-3xl font-black">Adaklu Mountain</h3>
-         <p class="text-lg text-left font-bold">Eligendi, blanditiis odit. Quasi doloremque minus accusamus beatae quaerat impedit magni exercitationem, deleniti .</p>
-         <p class="text-2xl font-bold text-white py-2">From $120</p>
+      class="top-0 left-0 flex flex-col justify-center object-cover object-center w-full px-4 bg-gray-600 bg-cover rounded-md cover-img-1 opacity-80 py-28 items-left">
+         <h3 class="z-50 py-3 text-3xl font-black opacity-100">Adaklu Mountain</h3>
+         <p class="mb-2 text-lg font-bold text-left">Eligendi, blanditiis odit. Quasi doloremque minus accusamus beatae quaerat impedit magni exercitationem, deleniti .</p>
+         <p class="w-32 p-2 text-2xl font-extrabold text-white rounded-sm tomato-bg">From $240</p> 
       </div>
       <div  
-      class="cover-img-2 bg-gray-600 top-0 left-0 opacity-80  rounded-md flex px-4  flex-col bg-cover object-cover object-center py-28 justify-between items-left">
-         <h3 class="text-left z-50 opacity-100 py-3 text-3xl  font-black">Ho Beach</h3>
-         <p class="text-lg text-left font-bold">Eligendi, blanditiis odit. Quasi doloremque minus accusamus beatae quaerat impedit magni exercitationem, deleniti .</p>
-         <p class="text-2xl font-extrabold text-white">From $350</p>  
-         
+      class="top-0 left-0 flex flex-col justify-between object-cover object-center px-4 bg-gray-600 bg-cover rounded-md cover-img-2 opacity-80 py-28 items-left">
+         <h3 class="z-50 py-3 text-3xl font-black text-left opacity-100">Ho Beach</h3>
+         <p class="mb-2 text-lg font-bold text-left">Eligendi, blanditiis odit. Quasi doloremque minus accusamus beatae quaerat impedit magni exercitationem, deleniti .</p>
+         <p class="w-32 p-2 text-2xl font-bold text-white rounded-sm tomato-bg">From $350</p> 
       </div>
       <div
-      class="cover-img bg-gray-900  bg-opacity-40  rounded-md flex px-4 flex-col bg-cover object-cover object-left py-28 justify-center items-left">
-      <h3 class="text-left z-50  opacity-100 py-3 text-3xl  font-black">Mountain Rides</h3>
-      <p class="text-lg text-left font-bold">Eligendi, blanditiis odit. Quasi doloremque minus accusamus beatae quaerat impedit magni exercitationem, deleniti .</p>
-      <p class="text-2xl font-extrabold text-white py-2">From $150</p> 
+      class="flex flex-col justify-center object-cover object-left px-4 bg-gray-900 bg-cover rounded-md cover-img bg-opacity-40 py-28 items-left">
+      <h3 class="z-50 py-3 text-3xl font-black text-left opacity-100">Mountain Rides</h3>
+      <p class="mb-2 text-lg font-bold text-left">Eligendi, blanditiis odit. Quasi doloremque minus accusamus beatae quaerat impedit magni exercitationem, deleniti .</p>
+      <p class="w-32 p-2 text-2xl font-extrabold text-white rounded-sm tomato-bg">From $450</p> 
     </div>
   </div>
 </div>
@@ -42,5 +41,9 @@
         background-image:linear-gradient(rgba(15, 14, 15, 0.3), rgba(12, 11, 12, 0.4)), 
         url(https://cdn.pixabay.com/photo/2014/01/14/11/34/tour-de-france-244348_1280.jpg)
     }
+    .tomato-bg{
+        background-color: tomato;
+    }
     
+
 </style>
