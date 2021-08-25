@@ -56,7 +56,7 @@
 			</li>
 			<li class="mr-3">
 				<a
-					href="#special"
+					href="#offers"
 					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
 				>
 					Offers
@@ -73,22 +73,15 @@
 			<li class="mr-3">
 				<a
 					href="#testimonials"
-					class="inline-block  px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
+					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
 				>
 					Testimonials
 				</a>
 			</li>
-			<li class="mr-3">
-				<a
-					href="#blog"
-					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
-				>
-					Blog
-				</a>
-			</li>
+			
 		</ul>
 		<button
-			class=" px-2 py-2 tomato-bg text-lg rounded-lg no-underline hover:text-white "
+			class="px-2 py-2 text-lg no-underline rounded-lg tomato-bg hover:text-white"
 			href="#contact">Contact Us</button>
 	</div>
 </nav>

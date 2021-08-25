@@ -10,5 +10,6 @@
 <style>
   :global(html){
     font-family: 'Advent Pro', sans-serif;
+    scroll-behavior: smooth;
   }
 </style>
