@@ -60,7 +60,7 @@
                 <path d="M9 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
                 <path d="M3 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
               </svg>
-            <h2 class="p-2 text-2xl font-bold uppercase lg:text-3xl">{item.name}</h2>
+            <h2 class="p-2 text-2xl font-bold uppercase tomato-text lg:text-3xl">{item.name}</h2>
             <p class="py-2 text-2xl italic prose">❝{item.text}❞</p> 
         </div>
         </div>
@@ -77,6 +77,9 @@
 <style>
     .h{
         height: 20rem;
+    }
+    .tomato-text{
+      color: tomato
     }
 
 </style>
